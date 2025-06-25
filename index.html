@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tora UI Builder</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Elements</h2>
+      <button class="elem-btn" data-type="Toggle">Add Toggle</button>
+      <button class="elem-btn" data-type="Button">Add Button</button>
+      <button class="elem-btn" data-type="Slider">Add Slider</button>
+      <button class="elem-btn" data-type="TextBox">Add TextBox</button>
+      <button class="elem-btn" data-type="Label">Add Label</button>
+    </aside>
+    <section class="main">
+      <div id="forms"></div>
+      <div class="preview">
+        <h2>Preview</h2>
+        <div id="preview-area"></div>
+      </div>
+    </section>
+  </div>
+  <section class="code-section">
+    <h2>Generated Lua Script</h2>
+    <pre id="lua-output"></pre>
+    <button id="download-btn">Download .txt</button>
+  </section>
+  <div id="error-modal" class="modal hidden">
+    <div class="modal-content">
+      <p id="error-msg"></p>
+      <button id="close-modal">Close</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
