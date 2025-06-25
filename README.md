@@ -19,15 +19,4 @@ A sleek black-red themed static website to build Lua GUI scripts using the old T
 4. See real-time preview on the right.
 5. Copy the code from the box or click **Download .txt**.
 
-## Deploy on GitHub Pages
 
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git remote add origin https://github.com/your-username/tora-ui-builder-improved.git
-git push -u origin main
-```
-
-In GitHub, go to **Settings » Pages**, select **main branch / root**, and save.  
-Your site will be at `https://your-username.github.io/tora-ui-builder-improved/`.
